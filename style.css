@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+  }
+
+  /* Style for the header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #c3e6cb;
+    box-shadow: 0 3px 0 0 rgba(178, 178, 178, 0.489);
+    position: fixed;
+    top: 0;
+    margin: 0;
+    height: 55px;
+    overflow: hidden;
+  }
+
+  /* Style for the brand name */
+
+  
+header h1 {
+    font-family: 'Dancing Script', cursive; 
+    font-size: 2rem;
+    margin: 0;
+}
+
+  /* Style for the navigation links */
+  header nav {
+    display: flex;
+    gap: 1rem;
+  }
+
+  header nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  header nav a:hover {
+    color: #000;
+  }
+
+  table {
+    border-collapse: collapse; /* Remove borders between cells */
+  }
+  td {
+    width: 300px; /* Set cell width to 300px */
+    height: 400px; /* Set cell height to 400px */
+    text-align: center; /* Center images horizontally */
+  }
+  img {
+    max-width: 100%; /* Scale images to fit within cell */
+    max-height: 100%; /* Scale images to fit within cell */
+  }
+
+
+  /* make each row cover %100 of row */
+  table {
+    width: 100%;
+}
+
+/* make img border light green and soft corner*/
+table img {
+    border: 2px solid #00000033;
+    border-radius: 30px;
+    width: 85%;
+    height: auto;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0f5d8;
+    padding: 0px;
+    margin-left: 0;
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.489);
+}
+
+footer a {
+    margin: 3px;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+/* Target the image element within the advertisement div */
+.advertisement img {
+    transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+  }
+  
+  /* Style the image on hover */
+  /* add red borber, example code: border: 5px solid #c3e6cb; */
+.advertisement img:hover {
+    transform: scale(1.1); /* Increase image size by 20% */
+    border: 5px solid red; /* Set border color to red */
+}
